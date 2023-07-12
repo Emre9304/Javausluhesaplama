@@ -1,0 +1,25 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Alt sayıyı giriniz: ");
+        int altsayi = input.nextInt();
+        System.out.println("Kuvveti giriniz: ");
+        int toplam = 1;
+        int kuvvet = input.nextInt();
+        for (int i=1;i<=kuvvet;i++){
+            toplam = altsayi*toplam;
+
+        }
+        System.out.println(toplam);
+
+
+
+
+
+
+
+}}
+
